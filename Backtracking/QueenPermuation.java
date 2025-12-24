@@ -9,7 +9,7 @@ public class QueenPermuation {
     public static void Permutation(boolean[] board, int tq, String ans, int qpsf) {
         if(qpsf == tq){
             System.out.println(ans);
-            return;
+            
         }
         for(int i = 0; i < board.length; i++){
             if(board[i] == false){
