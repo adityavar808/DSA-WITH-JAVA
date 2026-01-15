@@ -12,7 +12,6 @@ public class Palindrone_Partitioning {
 
     public static void Partition(String ques, List<String> ll, List<List<String>> ll2d) {
         if (ques.length() == 0) {
-            // System.out.println(ll);
             ll2d.add(new ArrayList<>(ll));
             return;
         }
